@@ -1,0 +1,145 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="Harrycontractorswebsite.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
+   <style>
+
+       .auto-style12 {
+           left: -16px;
+           top: 0px;
+           width: 125px;
+       }
+       .auto-style13 {
+           left: -6px;
+           top: 2px;
+           width: 141px;
+       }
+       .auto-style14 {
+           width: 183px;
+           height: 90px;
+           margin-top: 0px;
+       }
+       .auto-style15 {
+           width: 376px;
+           height: 1px;
+       }
+       .auto-style16 {
+           height: 1px;
+           width: 481px;
+       }
+       .auto-style17 {
+           height: 1px;
+           
+       }
+       .auto-style18 {
+           height: 60px;
+       }
+       .auto-style20 {
+           width: 55px;
+           height: 41px;
+       }
+       .auto-style21 {
+           width: 55px;
+           height: 41px;
+       }
+       .auto-style22 {
+           width: 55px;
+           height: 41px;
+       }
+       .auto-style23 {
+           left: 5px;
+           top: 1px;
+           width: 174px;
+       }
+       .auto-style24 {
+           left: 10px;
+           top: 2px;
+           width: 110px;
+       }
+       .auto-style25 {
+           left: 31px;
+           top: 2px;
+           width: 123px;
+       }
+       
+       }
+       .auto-style26 {
+           width: 173px;
+       }
+       .auto-style27 {
+           left: 47px;
+           top: 1px;
+           width: 154px;
+           height: 37px;
+       }
+       .auto-style28 {
+           width: 152px;
+       }
+       .auto-style29 {
+           width: 128px;
+       }
+   </style>
+    
+</head>
+<body>
+    <form id="form1" runat="server" style="border-color:none">
+        
+        <table align="center" class="auto-style1">
+            <tr style="background-color:black">
+                <td class="auto-style15" style="background-color: #000000; background-image: none;">
+                   <a href="default.aspx"><img alt="logo" class="auto-style14" src="images/logo1.png" align="center" /></a>
+                    
+                </td>
+                <td class="auto-style16" style="background-color: #000000; background-image:none;">
+                    <h1 style="background-image: none; background-color: #000000;">Harry Contractors</h1>
+                </td>
+                <td class="auto-style17" style="background-image: none; background-color: #000000; ">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="background-image: url('/images/navbackground.jpg'); background-color: #FFFFFF; background-repeat: inherit;" class="auto-style18">
+                    <br />
+                    <ul id="#navmenu"> 
+                        <li class="auto-style12"><a href="default.aspx">Home</a></li>
+                        <li class="auto-style13"><a href="about.aspx">About</a></li>
+                        <li class="auto-style23"><a href="register.aspx" class="auto-style26">Customers</a>
+                           <ul class="sub1"><li><a href="ergister.aspx">Register</a></li>
+                                            <li><a href="customerlogin.aspx">Login</a></li></ul>
+                        </li>
+                         <li class="auto-style24"><a href="stafflogin.aspx">Staff</a>
+                         </li>
+                         <li class="auto-style25"><a href="viewservices.aspx" class="auto-style29">Services</a>
+
+                         </li>
+                        
+                         <li class="auto-style27"><a href="contactus.aspx" class="auto-style28">Contactus</a>&nbsp;&nbsp;
+
+                         </li>
+                    </ul>
+                    <br />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" class="auto-style7" style="background-image: url(images/Green-Wallpaper.jpg)">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        
+                        
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" class="auto-style8" style="background-image: url('/images/background.jpg')"><h3>Copyright@2018gagandeepkaur<br />Working Hours<br />Monday-Friday:7:30am-5:30pm<br/>Saturday-Sunday:9:00am-3:00pm<br />Call us on:0211292464&nbsp;&nbsp;0278011865</h3>
+                    <h4>Follow us: 
+                   <img alt="twitter" class="auto-style22" src="images/twitter.JPG" align="center" style="background-color:black"/>&nbsp;<img alt="facebook" class="auto-style20" src="images/facebook.JPG" align="center" />&nbsp;<img alt="youtube" class="auto-style21" src="images/youtube.JPG" align="center"/><br />
+                    Contact us:contractorsharry@gmail.com</h4>
+                </td>
+            </tr>
+        </table>
+        
+    </form>
+</body>
+</html>
